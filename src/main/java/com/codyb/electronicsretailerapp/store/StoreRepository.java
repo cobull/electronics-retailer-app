@@ -1,4 +1,6 @@
 package com.codyb.electronicsretailerapp.store;
 
-public interface StoreRepository {
+import org.springframework.data.repository.ListCrudRepository;
+
+public interface StoreRepository extends ListCrudRepository {
 }
